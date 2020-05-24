@@ -97,24 +97,24 @@
     &-title{ 
         padding-top: 200px; 
         font-size: 60px; 
-        line-height: 70px;
+        // line-height: 70px;
         color: #f3f3f8;
         text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
-        span{
+        p{
+            margin-top: 40px;
+            margin-bottom: 52px;
             font-weight: 700;
         }
     }
     &-text{
         font-size: 20px;
-        line-height: 72px;
         font-weight: 500;
     }
     &-btn{
         & a + a{
             margin-left: 24px;
         }
-    }
-   
+    }   
 }
 .search__btn{
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.1);
@@ -124,12 +124,37 @@
     color: #fff;
     border-radius: 30px;
     padding-top: 12px;
-    margin-top: 50px;
-
+    margin-top: 60px;
 }
 //end search
+//start advantages
+.advantages__inner{
+    display: flex;
+    justify-content: space-between;
+}
+.advantages__item{
+    margin-top: 200px;
+    min-width: 360px;
+    text-align: center;
+    &-bg{
+        border-radius: 4px;
+        box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.08);
+    }
+    &-title{
+        font-size: 24px;
+        line-height: 7px;
+        color: #000;  
+        padding-top: 45px;  
+    }
+    &-text{
+        color: #555555;
+        line-height: 30px;
+        padding: 40px 36px 50px;
+
+    }
+}
+//end advantages
 
   
-
 
    
